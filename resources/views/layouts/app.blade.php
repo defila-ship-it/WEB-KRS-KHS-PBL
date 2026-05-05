@@ -490,9 +490,7 @@ tbody tr:hover td{background:var(--surface-3)}
   {{-- MAIN --}}
   <main class="main">
 
-    {{-- TOPBAR --}}
-    @include('layouts.topbar')
-
+    
     <div class="content">
       @yield('content')
     </div>

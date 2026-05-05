@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 |--------------------------------------------------------------------------
 */
 
-Route::get('/', function () {
+Route::get('/login', function () {
     return view('auth.login'); // resources/views/login.blade.php
 });
 
