@@ -98,3 +98,7 @@ Route::get('/khs', function () {
 Route::get('/khs/{nim}', function ($nim) {
     return view('pages.khs.detail', compact('nim'));
 });
+
+Route::get('/profile', function () {
+    return view('pages.profile');
+})->name('profile');
