@@ -1,0 +1,52 @@
+.sidebar{
+    width:230px;
+    min-height:100vh;
+    background:#31319A;
+    color:#fff;
+    display:flex;
+    flex-direction:column;
+}
+
+.sb-logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    padding:20px;
+    border-bottom:1px solid rgba(255,255,255,.2);
+    font-weight:700;
+    font-size:20px;
+}
+
+.sb-nav{
+    padding:25px 0;
+    display:flex;
+    flex-direction:column;
+}
+
+.sb-item{
+    color:white;
+    text-decoration:none;
+    padding:15px 30px;
+    font-size:20px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.sb-item:hover{
+    background:rgba(255,255,255,.1);
+}
+
+.sb-item.active{
+    background:rgba(255,255,255,.15);
+}
+
+.sb-bottom{
+    margin-top:auto;
+    padding:20px;
+}
+
+.sb-logout{
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+}
